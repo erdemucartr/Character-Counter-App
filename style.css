@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: darkgrey;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  background-color: aqua;
+  width: 400px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textalani {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 2px darkgrey;
+}
+
+.sayici-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.sayici-container p {
+  font-size: 15px;
+  color: black;
+}
+
+.toplam-sayi {
+  color: black;
+}
+
+.kalan-sayi {
+  color: black;
+}
